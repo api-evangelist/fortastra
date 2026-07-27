@@ -1,7 +1,24 @@
 aid: fortastra
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fortastra.png
 name: Fortastra
-description: Fortastra is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fortastra is a spacecraft manufacturer building low-cost, maneuverable
+  orbital defense systems designed for scalability and autonomous operation. Its spacecraft
+  protect space-based infrastructure with autonomous navigation that detects, analyzes,
+  and responds to orbital anomalies without relying on distant ground-based sensors.
+  The company's open software architecture spans sensing, maneuvering, coordination,
+  and response functions, and its hardware is validated through component testing,
+  simulation, and orbital deployment. Surfaced as a portfolio company of bloomberg-beta.
 url: https://raw.githubusercontent.com/api-evangelist/fortastra/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Space
+- Defense
+- Aerospace
+- Spacecraft
+- Satellites
+- Autonomous Systems
+- Orbital
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.fortastra.com/
+- type: Blog
+  url: https://www.fortastra.com/newsroom
+- type: Careers
+  url: https://www.fortastra.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fortastra
+- type: Twitter
+  url: https://x.com/fortastra_corp
+- type: DomainSecurity
+  url: security/fortastra-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
